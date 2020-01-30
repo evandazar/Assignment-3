@@ -7,15 +7,20 @@
 // ###
 // ##
 // #
-for (let i = 1; i <= 7; i++)
-{
-    let pound = "#"
-     if (i < 4)
-     {
-         console.log("#");
-        
-     } 
-     else{
-         console.log(i);
-     }
+
+for (let j = 1; j <= 4; j++) {
+  let pound = "";
+  for(let h = 1; h <= j; h++)
+  {
+        pound += "#";
+  }
+  console.log(pound);
+}
+for (let i = 3; i >= 1; i--) {
+    let pound = "";
+    for(let h = 1; h <= i; h++)
+    {
+          pound += "#";
+    }
+    console.log(pound);
 }
